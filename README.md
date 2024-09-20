@@ -16,9 +16,13 @@ the dataset structure is:
 # Scripts descriptions
 1.data_processing.py script is the main script to run the full project.
 it includes the data processing and augmentation functionalities, plus calling all the functions and classes required for training and evaluation.
+
 2.model_implementation.py includes the ModifiedResNet50 model and ModifiedResNet50FT that descibes the resnet architecture for training and finetuning.
+
 3.training.py includes finetuning, training from scratch, training with plateau,enhacments classes for training the modeles, plus the required global  functions.
+
 4. evaluation.py has the functions for implementing test-time augmentation (TTA).
+5. 
 ### The used evaluation metrics are:
 - `accuracy` 
 - `precision` 

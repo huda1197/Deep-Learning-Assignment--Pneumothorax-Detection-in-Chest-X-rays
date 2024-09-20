@@ -1,9 +1,8 @@
-# Pneumothorax Detection in Chest X-rays
+ Pneumothorax Detection in Chest X-rays
 -This repository demonstrate using RESNET50 architecture to fine-tune and train models on the Chest X-Ray Images with Pneumothorax Masks dataset.
 -The code is implemented using Pytorch library and python 3.11.5 64-bit and tested on windows 10.
 
-
-## Dataset
+# Dataset
 The dataset used for this project is [Chest X-Ray Images with Pneumothorax Masks] you can find in this link: ('https://www.kaggle.com/datasets/vbookshelf/pneumothorax-chest-xray-images-and-masks')
 the dataset structure is: 
 ├──_dataset/
